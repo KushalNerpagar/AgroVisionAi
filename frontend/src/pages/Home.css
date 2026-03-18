@@ -1,0 +1,214 @@
+/* Base */
+
+main{
+font-family:Arial, sans-serif;
+line-height:1.6;
+color:#333;
+}
+
+/* Container */
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 20px;
+}
+
+/* HERO SECTION */
+
+.home-hero{
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://static.vecteezy.com/system/resources/thumbnails/031/696/054/small_2x/sprawling-agricultural-farm-featuring-fields-of-crops-ai-generated-photo.jpg");
+
+background-size:cover;
+
+/* IMAGE MOVED DOWN */
+background-position:center 100%;
+
+padding:200px 0;
+
+text-align:center;
+color:white;
+}
+
+.hero-title{
+font-size:3.5rem;
+margin-bottom:20px;
+}
+
+.hero-subtitle{
+font-size:1.5rem;
+max-width:700px;
+margin:auto;
+}
+
+/* Section */
+
+.section{
+padding:60px 0;
+}
+
+/* Titles */
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+}
+
+.section-subtitle{
+text-align:center;
+color:#555;
+margin-bottom:40px;
+}
+
+/* FEATURES */
+
+.features{
+background:#f8f9fa;
+}
+
+.feature-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+margin-top:40px;
+}
+
+/* Feature Cards */
+
+.feature-card{
+height:250px;
+background:white;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+padding:20px;
+text-align:center;
+
+transition:.3s;
+}
+
+.feature-card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+.feature-icon{
+font-size:40px;
+color:#4CAF50;
+margin-bottom:10px;
+}
+
+/* Featured solutions */
+
+.solutions-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.solution-card{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.solution-card img{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+}
+
+.solution-card h3{
+margin-top:15px;
+}
+
+.solution-card p{
+margin-top:8px;
+}
+
+/* BUTTON STYLE */
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.btn-primary{
+background:#4CAF50;
+color:white;
+margin-top:12px;
+}
+
+/* Stats */
+
+.farm-stats{
+background:linear-gradient(135deg,#4CAF50,#2E7D32);
+color:white;
+}
+
+.farm-stats-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+text-align:center;
+}
+
+.farm-stats-card{
+background:rgba(255,255,255,0.15);
+padding:20px;
+border-radius:10px;
+}
+
+/* CTA */
+
+.cta-section{
+background:
+linear-gradient(rgba(255,255,255,0.7),rgba(0,0,0,0.7)),
+url("https://images.unsplash.com/photo-1501785886875-5e3d4d838e9e");
+
+background-size:cover;
+background-position:center;
+
+text-align:center;
+color:white;
+
+padding:120px 0;
+}
+
+.cta-btn{
+background:#FFC107;
+padding:15px 40px;
+border-radius:50px;
+color:#333;
+text-decoration:none;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.feature-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.solutions-grid{
+grid-template-columns:1fr;
+}
+
+.farm-stats-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
