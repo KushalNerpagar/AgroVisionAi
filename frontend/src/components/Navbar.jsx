@@ -57,12 +57,12 @@ const Navbar = ({ user }) => {
   }, [location.pathname]);
 
   const navLinks = [
-    { to: "/", label: "🏠 Home" },
-    { to: "/services", label: "🌾 Services" },
-    { to: "/services/dashboard", label: "📊 Today's Prices" },
-    { to: "/history", label: "📅 Past Data" },
-    { to: "/about", label: "📖 About" },
-    { to: "/help", label: "❓ Help" },
+    { to: "/", label: " Home" },
+    { to: "/services", label: " Services" },
+    { to: "/services/dashboard", label: " Today's Prices" },
+    { to: "/history", label: " Past Data" },
+    { to: "/about", label: " About" },
+    { to: "/help", label: " Help" },
   ];
 
   return (
@@ -104,7 +104,7 @@ const Navbar = ({ user }) => {
                     <span className="dropdown-email">{user.email || 'Guest'}</span>
                   </div>
                   <button className="dropdown-logout" onClick={handleLogout}>
-                    🚪 Logout
+                     Logout
                   </button>
                 </div>
               )}

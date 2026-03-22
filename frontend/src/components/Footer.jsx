@@ -13,7 +13,7 @@ const Footer = () => {
                 <FaSeedling className="footer-logo-icon" />
                 <h3>AgroVision</h3>
               </div>
-              <p className="footer-tagline">Empowering Farmers with Smart Technology 🌾</p>
+              <p className="footer-tagline">Empowering Farmers with Smart Technology </p>
               <div className="footer-helpline">
                 <FaPhone className="helpline-icon" />
                 <span>Kisan Helpline: <strong>1800-180-1551</strong></span>
@@ -29,22 +29,22 @@ const Footer = () => {
             <div className="footer-links">
               <h4>Quick Links</h4>
               <ul>
-                <li><Link to="/">🏠 Home</Link></li>
-                <li><Link to="/about">📖 About Us</Link></li>
-                <li><Link to="/services">🌾 Services</Link></li>
-                <li><Link to="/help">❓ Help</Link></li>
-                <li><Link to="/history">📅 Past Data</Link></li>
+                <li><Link to="/"> Home</Link></li>
+                <li><Link to="/about"> About Us</Link></li>
+                <li><Link to="/services"> Services</Link></li>
+                <li><Link to="/help"> Help</Link></li>
+                <li><Link to="/history"> Past Data</Link></li>
               </ul>
             </div>
             
             <div className="footer-links">
               <h4>Our Services</h4>
               <ul>
-                <li><Link to="/services/weather">🌤 Weather Forecast</Link></li>
-                <li><Link to="/services/crop-price-prediction">💰 Crop Price Prediction</Link></li>
-                <li><Link to="/services/crop-analysis">🌱 Crop Analysis</Link></li>
-                <li><Link to="/services/irrigation">💧 Irrigation</Link></li>
-                <li><Link to="/services/dashboard">📊 Market Prices</Link></li>
+                <li><Link to="/services/weather"> Weather Forecast</Link></li>
+                <li><Link to="/services/crop-price-prediction"> Crop Price Prediction</Link></li>
+                <li><Link to="/services/crop-analysis"> Crop Analysis</Link></li>
+                <li><Link to="/services/irrigation"> Irrigation</Link></li>
+                <li><Link to="/services/dashboard"> Market Prices</Link></li>
               </ul>
             </div>
             
@@ -69,7 +69,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="container">
-          <p>© 2025 AgroVision. Built with ❤️ for Indian Farmers</p>
+          <p>© 2026 AgroVision. Built for Indian Farmers</p>
         </div>
       </div>
     </footer>
