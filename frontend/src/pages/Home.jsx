@@ -4,9 +4,9 @@ import Footer from '../components/Footer'
 import './Home.css'
 
 const Home = ({ user }) => {
-  const firstName = user?.displayName?.split(' ')[0] || 
-                    JSON.parse(localStorage.getItem('user') || '{}')?.firstName || 
-                    'Farmer';
+  const firstName = user?.displayName?.split(' ')[0] ||
+    JSON.parse(localStorage.getItem('user') || '{}')?.firstName ||
+    'Farmer';
 
   const quickActions = [
     { to: '/services/weather', icon: '🌤️', title: 'Weather', desc: 'Check today\'s weather & forecast', color: '#457B9D' },
@@ -24,14 +24,14 @@ const Home = ({ user }) => {
       <section className="hero home-hero">
         <div className="container hero-content">
           <h1 className="hero-title">
-            Welcome, {firstName}! 🌾
+            Welcome, {firstName} ! 
           </h1>
           <p className="hero-subtitle">
-            AgroVision helps you grow better crops, get fair prices, and plan your 
+            AgroVision helps you grow better crops, get fair prices, and plan your
             farm smartly using technology.
           </p>
           <Link to="/services" className="hero-btn">
-            🌾 Explore All Services
+            Explore All Services
           </Link>
         </div>
       </section>
@@ -43,10 +43,10 @@ const Home = ({ user }) => {
           <p className="section-subtitle">
             Tap any option below to get started – it's simple and fast!
           </p>
-          
+
           <div className="quick-actions-grid">
             {quickActions.map((action, idx) => (
-              <Link to={action.to} key={idx} className="quick-action-card" style={{'--card-accent': action.color}}>
+              <Link to={action.to} key={idx} className="quick-action-card" style={{ '--card-accent': action.color }}>
                 <div className="qa-icon">{action.icon}</div>
                 <div className="qa-text">
                   <h3>{action.title}</h3>

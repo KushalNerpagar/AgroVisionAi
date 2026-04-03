@@ -6,7 +6,7 @@ const About = () => {
     <main className="about-page">
       <section className="hero about-hero">
         <div className="container hero-content">
-          <h1 className="hero-title">📖 About AgroVision</h1>
+          <h1 className="hero-title"> About AgroVision</h1>
           <p className="hero-subtitle">
             Built by farmers, for farmers – empowering Indian agriculture with smart technology
           </p>

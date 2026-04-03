@@ -50,7 +50,7 @@ const History = () => {
     <div className="history-page">
       <header className="history-header">
         <div className="container">
-          <h1 className="history-page-title">📅 Past Data & History</h1>
+          <h1 className="history-page-title"> Past Data & History</h1>
           <p className="history-page-subtitle">
             Previously fetched data saved on your device – available even without internet
           </p>

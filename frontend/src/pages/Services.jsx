@@ -62,7 +62,7 @@ const Services = () => {
     <main className="services-page">
       <section className="hero services-hero">
         <div className="container hero-content">
-          <h1 className="hero-title">🌾 Our Services</h1>
+          <h1 className="hero-title"> Our Services</h1>
           <p className="hero-subtitle">
             Simple, powerful tools to help you farm smarter and earn more
           </p>

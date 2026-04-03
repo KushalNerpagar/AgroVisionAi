@@ -122,7 +122,7 @@ const DashBoard = () => {
     <div className="dashboard-page">
       <header className="dashboard-header">
         <div className="container">
-          <h1 className="dashboard-page-title">📊 Market Prices Dashboard</h1>
+          <h1 className="dashboard-page-title"> Market Prices Dashboard</h1>
           <p className="dashboard-page-subtitle">Today's mandi prices from across India</p>
         </div>
       </header>
@@ -141,7 +141,7 @@ const DashBoard = () => {
             )}
 
             {/* Filters */}
-            <div className="dashboard-filters">
+            <div className="dashboard-filters mt-4">
               <div className="filter-group">
                 <label>🔍 Search Crop</label>
                 <input type="text" value={searchCrop} onChange={e => setSearchCrop(e.target.value)} placeholder="Type crop name..." className="form-control" />
