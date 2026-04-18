@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import './Services.css';
+import weatherImg from '../assets/weather-forecast.jpg';
 
 const services = [
   {
@@ -10,7 +11,7 @@ const services = [
     features: ['Real-time weather data', 'Temperature & humidity', 'Rain & wind alerts', 'Weekly forecast'],
     link: '/services/weather',
     cta: 'Check Weather →',
-    img: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=800&q=80',
+    img: weatherImg,
   },
   {
     emoji: '🌱',
