@@ -13,7 +13,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for React frontend
+# CORS(app)  # Enable CORS for React frontend
+CORS(app, origins=["https://agrovisionai-orcin.vercel.app"])
 
 # --- Crop Analysis Section (from crop-analysis/server.py) ---
 # Load crop production data
